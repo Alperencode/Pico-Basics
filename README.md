@@ -6,32 +6,38 @@ Basic Raspberry-pi Pico applications with [C/C++](https://github.com/Alperencode
 
 <h2> Project Creator Usage </h2>
 
-Clone the repository
+1) Clone the repository
 
 ```bash
-git clone https://github.com/Alperencode/Pico-Basics.git
+$ git clone https://github.com/Alperencode/Pico-Basics.git
 ```
 
-Direct to pico-sdk direcotry, run pwd and copy the path
+<br>
+
+2) Direct to pico-sdk direcotry, run pwd and copy the path
 
 ```bash
-cd Pico-Basics/pico-sdk
-pwd
+$ cd Pico-Basics/pico-sdk
+$ pwd
 ```
 
-Set the pico sdk
+<br>
+
+3) Set the pico sdk
 
 Linux or WSL:
 ```bash
-export PICO_SDK_PATH=*copied path*/pico-sdk
+$ export PICO_SDK_PATH=*copied path*/pico-sdk
 ```
 
 Windows:
-```bash
+```powershell
 setx PICO_SDK_PATH "*copied path*\pico-sdk"
 ```
 
-Run project creator (Linux or WSL)
+<br>
+
+4) Run project creator (Linux or WSL)
 
 ```bash
 ./project_creator.py Project_Name
@@ -46,6 +52,6 @@ Run project creator (Linux or WSL)
 
 <br>
 
-<img src="/img/Pico-Pins.png" width=600 height=600>
+<img src="/images/Pico-Pins.png" width=600 height=600>
 
 </div>
